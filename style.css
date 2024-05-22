@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    background: rgb(54, 54, 54);
+    height: 6%;
+    font-size: 5vh;
+    color: white;
+    padding: 2vh;
+}
+#main{
+    height: 90%;
+    background: rgba(70, 70, 70, 0.459);
+}
+.input-box{
+    height: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    height: 50%;
+    width: 60%;
+    border-radius: 1vh;
+    border: none;
+    font-size: 3.5vh;
+    padding: 1vh;
+}
+#input:focus{
+    outline: none;
+}
+#Add-btn{
+    height: 60%;
+    width: 10%;
+    margin: 1vh;
+    border-radius: 1vh;
+    border: none;
+    font-size: 3.5vh;
+    color: #fff;
+    background: rgb(77, 203, 253);
+}
+#Add-btn:hover{
+    background: rgb(0, 147, 245);
+}
+#tasks{
+    min-height: 80%;
+    /* background: blue; */
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ul{
+    background: #3d3d3d;
+    width: 80%;
+    height: 7vh;
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+    font-size: 3vh;
+    color: white;
+}
+span{
+    /* background: blue; */
+    height: 5vh;
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+span button{
+    width: 40%;
+    border: none;
+    border-radius: 1vh;
+    font-size: 2vh;
+    font-weight: 600;
+    color: white;
+}
+#edit-btn{
+    background-color: rgb(40, 253, 40);
+}
+#edit-btn:hover{
+    background: rgb(4, 199, 4);
+}
+#close-btn{
+    background: rgb(255, 60, 60);
+}
+#close-btn:hover{
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
