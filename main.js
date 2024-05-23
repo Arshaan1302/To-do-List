@@ -22,6 +22,13 @@ function coloring() {
     }
   }
 }
+// Enter to ADD task
+function keyboardInputHandler(e) {
+  if(e.key==='Enter'){
+    addElement()
+  }
+}
+document.addEventListener("keydown", keyboardInputHandler);
 
 setInterval(coloring, 100);
 stroke()
